@@ -8,8 +8,10 @@ text <- c("Because I could not stop for Death -",
           "The Carriage held but just Ourselves -",
           "and Immortality")
 text
+str(text)
 
 # # read text list into tibble (df) with one line per string
+install.packages("dplyr")
 library(dplyr)
 text_df1 <- tibble(line = 1:4, text = text)
 text_df1
@@ -18,19 +20,25 @@ text_df1
 library(tidytext)
 text_df2 <- unnest_tokens(text_df1, word, text)
 
+
 # 1.3 Tidying the works of Jane Austen
 
 library(janeaustenr)
 library(dplyr)
 library(stringr)
 
+# original_books <- austen_books() %>%
+#   group_by(book)
+# original_books
+
 original_books <- austen_books() %>%
   group_by(book) %>%
-  mutate(linenumber = row_number(),
+  mutate(linenumber = row_number(), 
          chapter = cumsum(str_detect(text, 
-                                     regex("^chapter [\\divxlc]",
+                                     regex("^chapter [\\divxlc]", 
                                            ignore_case = TRUE)))) %>%
   ungroup()
+
 original_books
 
 # # tokenize all six books 
@@ -55,6 +63,12 @@ tidy_books1 %>%
 
 # # tidy stores word counts in data frame, so plot outcomes
 library(ggplot2)
+
+tidy_books1 %>%
+  count(word, sort = TRUE) %>%
+  filter(n > 600) %>%                  # only words occurring > 600 words
+  mutate(word = reorder(word, n))  # sort from high to low on n
+  
 tidy_books1 %>%
       count(word, sort = TRUE) %>%
       filter(n > 600) %>%                  # only words occurring > 600 words

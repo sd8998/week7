@@ -1,0 +1,54 @@
+book, url, pageHdrSearch, pageURLSearch, pageContentSearch
+Statistical Inference via Data Science, https://moderndive.netlify.app/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Introduction to Data Science, https://bookdown.org/hneth/i2ds/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Supervised Machine Learning, https://bookdown.org/mpfoley1973/supervised-ml/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Behavior Analysis with Machine Learning Using R, https://enriquegit.github.io/behavior-free/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Interpretable Machine Learning, https://christophm.github.io/interpretable-ml-book/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Fundamentals of Data Visualization, https://clauswilke.com/dataviz/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+R Graphics Cookbook, https://r-graphics.org/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+Data Science Live Book, https://livebook.datascienceheroes.com/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+Reproducible Medical Research with R, https://bookdown.org/pdr_higgins/rmrwr/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+blogdown: Creating Websites with R Markdown, https://bookdown.org/yihui/blogdown/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+bookdown: Authoring Books and Technical Documents with R Markdown, https://bookdown.org/yihui/bookdown/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+RMarkdown for Scientists, https://rmd4sci.njtierney.com/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+R Markdown Cookbook, https://bookdown.org/yihui/rmarkdown-cookbook/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+R Markdown: The Definitive Guide, https://bookdown.org/yihui/rmarkdown/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+Efficient R programming, https://csgillespie.github.io/efficientR/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+Beyond Multiple Linear Regression, https://bookdown.org/roback/bookdown-BeyondMLR/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+R for Health Data Science, https://argoshare.is.ed.ac.uk/healthyr_book/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+R for Non-Programmers: A Guide for Social Scientists, https://bookdown.org/daniel_dauber_io/r4np_book/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+Applied Statistics with R, https://book.stat420.org/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+YaRrr! The Pirate’s Guide to R, https://bookdown.org/ndphillips/YaRrr/, nav ul.summary li.chapter, nav ul.summary li.chapter a, section#section-.normal
+Hands-On Programming with R, https://rstudio-education.github.io/hopr/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Introduction to Data Science, https://rafalab.github.io/dsbook/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+R Programming for Data Science, https://bookdown.org/rdpeng/rprogdatascience/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+An Introduction to Probability and Simulation, https://bookdown.org/kevin_davisross/probsim-book/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+An Introduction to Text Processing and Analysis with R, https://m-clark.github.io/text-analysis-with-R/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+An-other introduction to R, https://bookdown.org/f_lennert/introduction-to-r/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Data Analysis in Medicine and Health using R, https://bookdown.org/drki_musa/dataanalysis/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Data Science: A First Introduction, https://datasciencebook.ca/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Discovering Structural Equation Modeling Using R, the Tidyverse, and Lavaan, https://bookdown.org/njenk001/discovering_structural_equation_modeling_using_stata/, nav ul.summary li.chapter a, nav ul.summary li.chapter a, section#section-.normal
+Graphical & Latent Variable Modeling, https://m-clark.github.io/sem/, 
+Handling Strings With R, https://www.gastonsanchez.com/r4strings/, 
+Introduction to Data Exploration and Analysis with R, https://bookdown.org/mikemahoney218/IDEAR/, 
+Making Sense of Data with R, https://bookdown.org/yshang/book/, 
+Predictive Analytics: The Code Book, https://bookdown.org/matth_bogaert/Book_2022/, 
+R for marketing students, https://bookdown.org/content/6ef13ea6-4e86-4566-b665-ebcd19d45029/, 
+Simulation and Modelling to Understand Change, https://bookdown.org/manuele_leonelli/SimBook/, 
+Supervised Machine Learning for Text Analysis in R, https://smltar.com/, 
+Text as Data Methods in R - Applications for Automated Analyses of News Content, https://bookdown.org/valerie_hase/TextasData_HS2021/, 
+TidySimStat, https://bookdown.org/edxu96/tidysimstat/, 
+Toolbox CSS, https://bookdown.org/f_lennert/book-toolbox_css/, 
+Outstanding User Interfaces with Shiny, https://unleash-shiny.rinterface.com/, 
+HTTP testing in R, https://books.ropensci.org/http-testing/, 
+Data Analytics Coding Fundamentals, https://bookdown.org/martin_monkman/DataAnalyticsCodingFundamentals/, 
+ggplot2: Elegant Graphics for Data Analysis, https://ggplot2-book.org/, 
+Happy Git and GitHub for the useR, https://happygitwithr.com/, 
+R for Data Science, https://r4ds.had.co.nz/, 
+R Packages, https://r-pkgs.org/, 
+Advanced R, https://adv-r.hadley.nz/, 
+Advanced R Solutions, https://advanced-r-solutions.rbind.io/, 
+A Guide on Data Analysis, https://bookdown.org/mike/data_analysis/, 
+The Epidemiologist R Handbook, https://epirhandbook.com/en/, 
+Text Mining with R, https://www.tidytextmining.com/, 
+Data Visualization: A Practical Introduction, https://socviz.co/, 
